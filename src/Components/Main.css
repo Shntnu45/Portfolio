@@ -1,0 +1,270 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  gap: 20px;
+  padding: 20px; /* Added padding for better spacing */
+}
+
+.bg {
+  padding-top: 300px;
+  padding-bottom: 200px;
+}
+
+.Shant {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+
+}
+
+/* Title container styles */
+.title-container {
+  position: relative;
+  height: 50px; /* Increased height for larger text */
+  overflow: hidden;
+}
+
+.title {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: fade-in-out 6s infinite;
+  opacity: 0;
+  font-size: 1.5rem; /* Increased font size */
+}
+
+.title:nth-child(1) {
+  animation-delay: 0s;
+}
+
+.title:nth-child(2) {
+  animation-delay: 3s;
+}
+
+@keyframes fade-in-out {
+  0% {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  10% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  40% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  50% {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+}
+
+.left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.right {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.marquee-container1 {
+  margin-top: 10px;
+  height: 40px; /* Increased height for visibility */
+  color: white;
+  overflow: hidden;
+  margin: 0 auto 20px;
+}
+
+.marquee-text1 {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  font-size: 1.5rem; /* Increased font size */
+  font-weight: bold;
+  color: #fff;
+  animation: marquee 10s linear infinite;
+    animation-delay: 10s; /* Delay before the animation starts */
+
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.hero-content {
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.hero-content h1 {
+  font-size: 3rem; /* Increased font size */
+  margin-bottom: 20px;
+  white-space: nowrap;
+}
+
+.hero-content p {
+  font-size: 1.25rem; /* Increased font size */
+  margin-bottom: 40px;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.get-started,
+.see-docs {
+  border: none;
+  font-size: 1rem; /* Increased font size */
+  cursor: pointer;
+  padding: 10px 20px; /* Added padding */
+}
+
+.get-started {
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+}
+
+.see-docs {
+  background: transparent;
+  color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+.hero-graphic {
+  position: relative;
+  width: 450px; /* Increased size */
+  height: 450px; /* Increased size */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+.circle {
+  position: relative;
+  width: 500px; /* Increased size */
+  height: 500px; /* Increased size */
+  background: url('/src/img/IMG_6490.PNG') no-repeat center center / cover;
+  border-radius: 30%;
+}
+
+.graphic-icon {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  color: white;
+}
+
+.graphic-icon img {
+  width: 80px; /* Increased size */
+  height: 80px; /* Increased size */
+  margin-bottom: 10px;
+}
+
+.frontend {
+  top: 0;
+  left: 50%;
+  transform: translate(-200%, 30%);
+}
+
+.backend {
+  bottom: 0;
+  left: 50%;
+  transform: translate(120%, -180%);
+}
+
+.full {
+  height: 300px;
+  width: 300px;
+}
+
+.fullstack {
+  left: 0;
+  top: 50%;
+  transform: translate(120%, 80%);
+}
+
+.logo-icon {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  transform: translate(10px, 10px);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .hero-graphic,
+  .circle {
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+  }
+
+  .frontend,
+  .backend,
+  .fullstack {
+    position: static;
+    transform: none;
+    margin-bottom: 20px;
+  }
+
+  /* Additional responsive styles */
+  .hero-content h1 {
+    font-size: 2.5rem; /* Decreased size for smaller screens */
+  }
+
+  .hero-content p {
+    font-size: 1rem; /* Decreased size for smaller screens */
+  }
+
+  .marquee-text1 {
+    font-size: 1.25rem; /* Decreased size for smaller screens */
+  }
+
+  .get-started,
+  .see-docs {
+    font-size: 0.875rem; /* Decreased size for smaller screens */
+  }
+
+  .circle {
+    width: 100%; /* Make the circle responsive */
+    height: auto; /* Maintain aspect ratio */
+  }
+}
+

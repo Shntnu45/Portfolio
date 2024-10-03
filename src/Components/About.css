@@ -1,0 +1,87 @@
+.stats-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+.myimg{
+    width: 600px;
+}
+/* The left container now takes 40% width and the right container takes 60% */
+.left-container {
+    flex: 0 0 40%; /* 40% of the width */
+    display: flex;
+    justify-content: center;
+}
+
+.right-container {
+    flex: 0 0 60%; /* 60% of the width */
+    padding-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.About-section {
+    max-width: 1200px;
+}
+
+.About-section h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.About-section p {
+    font-size: 1.2em;
+    line-height: 1.8;
+    text-align: justify;
+    max-width: 90%;
+}
+
+.coderlogo {
+    padding-left: 20px;
+}
+
+/* Make it responsive */
+@media (max-width: 768px) {
+    .stats-container {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .left-container,
+    .right-container {
+        flex: 1 1 100%;
+    }
+
+    .right-container {
+        padding-left: 0;
+        padding-top: 20px;
+    }
+
+    .About-section h1 {
+        font-size: 2em;
+    }
+
+    .About-section p {
+        font-size: 1.1em;
+    }
+}
+
+/* Animation for the coder logo */
+@keyframes popUp {
+    0% {
+        transform: scale(0.8);
+        opacity: 0;
+    }
+    50% {
+        transform: scale(1.1);
+        opacity: 0.5;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
