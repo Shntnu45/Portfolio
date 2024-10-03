@@ -1,33 +1,25 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.8ce462b2.chunk.css",
-    "main.js": "/Portfolio/static/js/main.5ef25158.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.5ef25158.chunk.js.map",
-    "runtime-main.js": "/Portfolio/static/js/runtime-main.9eff1c21.js",
-    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.9eff1c21.js.map",
-    "static/js/2.533bcd98.chunk.js": "/Portfolio/static/js/2.533bcd98.chunk.js",
-    "static/js/2.533bcd98.chunk.js.map": "/Portfolio/static/js/2.533bcd98.chunk.js.map",
-    "static/js/3.d520b6e6.chunk.js": "/Portfolio/static/js/3.d520b6e6.chunk.js",
-    "static/js/3.d520b6e6.chunk.js.map": "/Portfolio/static/js/3.d520b6e6.chunk.js.map",
+    "main.css": "/Portfolio/static/css/main.be73c492.css",
+    "main.js": "/Portfolio/static/js/main.8578a42e.js",
+    "static/js/453.0b61cd68.chunk.js": "/Portfolio/static/js/453.0b61cd68.chunk.js",
+    "static/media/IMG_6490.PNG": "/Portfolio/static/media/IMG_6490.29ea1566e8b992428689.PNG",
+    "static/media/Screenshot (175).png": "/Portfolio/static/media/Screenshot (175).d173ac4812be9001c0ef.png",
+    "static/media/Screenshot (174).png": "/Portfolio/static/media/Screenshot (174).d5d37bb0f8685df7e16d.png",
+    "static/media/Screenshot (173).png": "/Portfolio/static/media/Screenshot (173).ccf99a4db0a696531c0d.png",
+    "static/media/mongo.png": "/Portfolio/static/media/mongo.6170bacefd8a1f69ca74.png",
+    "static/media/Navbarlogo.png": "/Portfolio/static/media/Navbarlogo.bf743a4e2bbce5854c79.png",
+    "static/media/Coder.png": "/Portfolio/static/media/Coder.03b8dd193bf6bd646855.png",
+    "static/media/IMG_6305.GIF": "/Portfolio/static/media/IMG_6305.8ad8892696abf97b254e.GIF",
+    "static/media/express-removebg-preview.png": "/Portfolio/static/media/express-removebg-preview.040678ba25b7f4c97c71.png",
+    "static/media/Tailwind_CSS_Logo.svg.png": "/Portfolio/static/media/Tailwind_CSS_Logo.svg.48cd573a5e98236878ef.png",
     "index.html": "/Portfolio/index.html",
-    "precache-manifest.0db0204ade59595763d648d1dd77f03b.js": "/Portfolio/precache-manifest.0db0204ade59595763d648d1dd77f03b.js",
-    "service-worker.js": "/Portfolio/service-worker.js",
-    "static/css/main.8ce462b2.chunk.css.map": "/Portfolio/static/css/main.8ce462b2.chunk.css.map",
-    "static/js/2.533bcd98.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.533bcd98.chunk.js.LICENSE.txt",
-    "static/media/Coder.png": "/Portfolio/static/media/Coder.bbde04a9.png",
-    "static/media/IMG_6305.GIF": "/Portfolio/static/media/IMG_6305.c7ac7aa3.GIF",
-    "static/media/Navbarlogo.png": "/Portfolio/static/media/Navbarlogo.e8d1a63c.png",
-    "static/media/Screenshot (173).png": "/Portfolio/static/media/Screenshot (173).e966005f.png",
-    "static/media/Screenshot (174).png": "/Portfolio/static/media/Screenshot (174).2d44d8ef.png",
-    "static/media/Screenshot (175).png": "/Portfolio/static/media/Screenshot (175).4fbe9963.png",
-    "static/media/Tailwind_CSS_Logo.svg.png": "/Portfolio/static/media/Tailwind_CSS_Logo.svg.27746d42.png",
-    "static/media/express-removebg-preview.png": "/Portfolio/static/media/express-removebg-preview.79953159.png",
-    "static/media/mongo.png": "/Portfolio/static/media/mongo.ccd00340.png"
+    "main.be73c492.css.map": "/Portfolio/static/css/main.be73c492.css.map",
+    "main.8578a42e.js.map": "/Portfolio/static/js/main.8578a42e.js.map",
+    "453.0b61cd68.chunk.js.map": "/Portfolio/static/js/453.0b61cd68.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.9eff1c21.js",
-    "static/js/2.533bcd98.chunk.js",
-    "static/css/main.8ce462b2.chunk.css",
-    "static/js/main.5ef25158.chunk.js"
+    "static/css/main.be73c492.css",
+    "static/js/main.8578a42e.js"
   ]
 }
