@@ -6,7 +6,7 @@
 }
 
 .bg {
-  padding-top: 200px;
+  padding-top: 100px;
   padding-bottom: 100px;
 }
 
@@ -165,41 +165,7 @@
   margin: auto;
 }
 
-.circle {
-  position: relative;
-  width: 500px; /* Increased size */
-  height: 500px; /* Increased size */
-  background: url('/src/img/IMG_6490.PNG') no-repeat center center / cover;
-  border-radius: 30%;
-}
 
-.graphic-icon {
-  position: absolute;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 10px;
-  color: white;
-}
-
-.graphic-icon img {
-  width: 80px; /* Increased size */
-  height: 80px; /* Increased size */
-  margin-bottom: 10px;
-}
-
-.frontend {
-  top: 0;
-  left: 50%;
-  transform: translate(-200%, 30%);
-}
-
-.backend {
-  bottom: 0;
-  left: 50%;
-  transform: translate(120%, -180%);
-}
 
 .full {
   height: 300px;
