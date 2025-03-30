@@ -1,0 +1,57 @@
+/* ------------Coding details-------------- */
+/* Stats Section */
+.Edu-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    color: white;
+    /* background: radial-gradient(farthest-corner at 50% 50%, #1a0246, #000000); */
+    background-size: 100% 100%;
+  }
+  
+  .vertical-line {
+    width: 2px;
+    height: 100px;
+    background-color: white;
+  }
+  
+  .digit {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .sect {
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  /* Responsive Design */
+  
+  /* Tablets and below */
+  @media (max-width: 768px) {
+    .Edu-section {
+      flex-direction: column;
+      align-items: center;
+      padding: 10px;
+    }
+  
+    .sect {
+      margin-bottom: 20px;
+    }
+  
+    .vertical-line {
+      display: none;
+    }
+  }
+  
+  /* Small screens (mobiles) */
+  @media (max-width: 480px) {
+    .digit {
+      font-size: 1.5rem;
+    }
+  
+    .sect {
+      padding: 15px;
+    }
+  }

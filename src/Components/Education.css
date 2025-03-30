@@ -1,0 +1,137 @@
+.education-container {
+  padding: 20px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Edu {
+  margin-bottom: 30px;
+  text-align: center;
+  color: white;
+}
+
+.education-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  width: 100%;
+  justify-items: center;
+}
+
+.education-card {
+  background-color: #1a1a1a;
+  border-radius: 8px;
+  padding: 30px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.education-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.highlighted {
+  background-color: #222;
+
+    border: 2px solid #4caf50;
+   box-shadow: 0 4px 8px rgba(108, 99, 255, 0.5);
+  position: relative;
+}
+
+.highlighted::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 8px;
+  box-shadow: 0 0 10px 10px rgba(108, 99, 255, 0.3);
+  z-index: -1;
+}
+
+.education-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.education-subtitle {
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: #aaa;
+}
+
+.education-duration {
+  margin-bottom: 20px;
+  color: white;
+}
+
+.education-details {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.education-details li {
+  margin-bottom: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .education-content {
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  }
+}
+
+@media (max-width: 480px) {
+  .education-card {
+    padding: 20px;
+  }
+  
+  .education-title {
+    font-size: 20px;
+  }
+
+  .education-subtitle {
+    font-size: 14px;
+  }
+
+  .education-duration {
+    font-size: 14px;
+  }
+}
+.education-card {
+  background-color: #1a1a1a;
+  border-radius: 8px;
+  padding: 30px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s, box-shadow 0.3s;
+  opacity: 0;
+  transform: scale(0.9);
+  animation: popUp 0.6s ease forwards;
+}
+
+/* Animation for the pop-up effect */
+@keyframes popUp {
+  0% {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Slight hover scale-up for a dynamic feel */
+.education-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
