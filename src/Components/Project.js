@@ -53,7 +53,7 @@ function App() {
             <h6>Tools used :</h6>
 
             <div className="tags">
-            <span>React js</span>
+            <span>ReactJs</span>
               <span>HTML</span>
               <span>CSS</span>
               <span>Javascript</span>
