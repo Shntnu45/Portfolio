@@ -9,7 +9,7 @@ const ExperienceSection = () => {
       <div className="experience-card highlighted col-md-4">
           <h4 className="experience-title ">Web Developer Intern </h4>
           <p className="experience-subtitle">Aarohi Software </p>
-          <h5 className="experience-duration">Aug/2024 - present</h5>
+          <h5 className="experience-duration">Aug/2024 - Jan/2025</h5>
           <br/>
 
           <ul className="experience-details">

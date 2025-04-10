@@ -7,8 +7,8 @@
 }
 
 .bg {
-  padding-top: 300px;
-  padding-bottom: 200px;
+  padding-top: 150px;
+  padding-bottom: 50px;
 }
 
 .Shant {
@@ -140,7 +140,7 @@
   border: none;
   font-size: 1rem; /* Increased font size */
   cursor: pointer;
-  padding: 10px 20px; /* Added padding */
+  padding: 5px 5px; /* Added padding */
 }
 
 .get-started {
@@ -266,5 +266,8 @@
     width: 100%; /* Make the circle responsive */
     height: auto; /* Maintain aspect ratio */
   }
+}
+.ecom{
+font-size: small;
 }
 

@@ -31,7 +31,7 @@ function App() {
         <div className="course highlighted ">
           <img src={Eccomerse} alt="Ecom" />
           <div className="course-info">
-            <h5>E-Commerse Web Page </h5>
+            <h5 className='ecom'>E-Commerse <br/> Web Page </h5>
             <h6>Tools used :</h6>
 
             <div className="tags">

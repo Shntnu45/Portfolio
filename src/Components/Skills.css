@@ -94,4 +94,30 @@
 .express-logo{
   filter: invert(100%);
 }
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 30px;
+  padding: 20px;
+  justify-items: center;
+  align-items: center;
+}
+
+.skills-grid div {
+  background-color: #ebeff7;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+  width: 120px;
+}
+
+.skills-grid img {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+}
 

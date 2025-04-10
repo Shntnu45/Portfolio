@@ -16,11 +16,12 @@
 }
 
 .right-container {
-    flex: 0 0 60%; /* 60% of the width */
-    padding-left: 20px;
+    flex: 0 0 50%; /* 60% of the width */
+    padding-left: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
 .About-section {
